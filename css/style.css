@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    top: 30px;
+    background: url("newbackground1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins; 
+    font-size: 14px;
+}
+
+.nav-area li a:hover {
+    background: rgb(214, 188, 101);
+    color: #333;
+}
